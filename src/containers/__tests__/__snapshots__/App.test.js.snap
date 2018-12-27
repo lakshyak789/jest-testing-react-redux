@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    balance={20}
+    deposit={[MockFunction]}
+    withdraw={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="balance"
+        >
+          Balance is: 
+          20
+        </h1>,
+        <label
+          className="amount"
+        >
+          Enter Amount:
+        </label>,
+        <input
+          className="input-box"
+          onChange={[Function]}
+          type="text"
+          value={0}
+        />,
+        <div
+          className="btn-wrap"
+        >
+          <button
+            className="deposit-balance"
+            onClick={[Function]}
+          >
+            Deposit
+          </button>
+          <button
+            className="withdraw-balance"
+            onClick={[Function]}
+          >
+            Withdraw
+          </button>
+        </div>,
+      ],
+      "className": "container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Balance is: ",
+            20,
+          ],
+          "className": "balance",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Balance is: ",
+          20,
+        ],
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Enter Amount:",
+          "className": "amount",
+        },
+        "ref": null,
+        "rendered": "Enter Amount:",
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "input-box",
+          "onChange": [Function],
+          "type": "text",
+          "value": 0,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="deposit-balance"
+              onClick={[Function]}
+            >
+              Deposit
+            </button>,
+            <button
+              className="withdraw-balance"
+              onClick={[Function]}
+            >
+              Withdraw
+            </button>,
+          ],
+          "className": "btn-wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Deposit",
+              "className": "deposit-balance",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Deposit",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Withdraw",
+              "className": "withdraw-balance",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Withdraw",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="balance"
+          >
+            Balance is: 
+            20
+          </h1>,
+          <label
+            className="amount"
+          >
+            Enter Amount:
+          </label>,
+          <input
+            className="input-box"
+            onChange={[Function]}
+            type="text"
+            value={0}
+          />,
+          <div
+            className="btn-wrap"
+          >
+            <button
+              className="deposit-balance"
+              onClick={[Function]}
+            >
+              Deposit
+            </button>
+            <button
+              className="withdraw-balance"
+              onClick={[Function]}
+            >
+              Withdraw
+            </button>
+          </div>,
+        ],
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Balance is: ",
+              20,
+            ],
+            "className": "balance",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Balance is: ",
+            20,
+          ],
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Enter Amount:",
+            "className": "amount",
+          },
+          "ref": null,
+          "rendered": "Enter Amount:",
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "input-box",
+            "onChange": [Function],
+            "type": "text",
+            "value": 0,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="deposit-balance"
+                onClick={[Function]}
+              >
+                Deposit
+              </button>,
+              <button
+                className="withdraw-balance"
+                onClick={[Function]}
+              >
+                Withdraw
+              </button>,
+            ],
+            "className": "btn-wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Deposit",
+                "className": "deposit-balance",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Deposit",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Withdraw",
+                "className": "withdraw-balance",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Withdraw",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

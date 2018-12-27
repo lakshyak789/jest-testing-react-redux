@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+}
+.amount {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.input-box {
+  border: none;
+  outline: none;
+  width: 240px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px;
+  background-color: rgb(223, 221, 221);
+}
+.btn-wrap {
+  margin-top: 35px;
+  margin-left: 50px;
+}
+.btn-wrap .deposit-balance {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: rgb(97, 243, 97);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px cadetblue;
+}
+.btn-wrap .withdraw-balance {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: rgb(243, 175, 97);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px cadetblue;
+}
