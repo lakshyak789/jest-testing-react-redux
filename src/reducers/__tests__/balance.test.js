@@ -8,7 +8,10 @@ describe("describing reducers", () => {
       balanceReducers(undefined, { type: constants.SET_BALANCE, balance })
     ).toEqual(balance);
   });
-
+  it("sends the default state", () => {
+    let state = 0;
+    expect(balanceReducers(undefined, {})).toEqual(state);
+  });
   it("deposits the balance", () => {
     let initialBalance = 10;
     const deposit = 5;

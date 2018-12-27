@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button } from "react-materialize";
 import "./App.css";
 import { connect } from "react-redux";
 import { deposit, withdraw } from "../actions/balance";
@@ -33,15 +34,15 @@ export class App extends Component {
           value={this.state.balance}
         />
         <div className="btn-wrap">
-          <button className="deposit-balance" onClick={this.deposit.bind(this)}>
+          <Button className="deposit-balance" onClick={this.deposit.bind(this)}>
             Deposit
-          </button>
-          <button
+          </Button>
+          <Button
             className="withdraw-balance"
             onClick={this.withdraw.bind(this)}
           >
             Withdraw
-          </button>
+          </Button>
         </div>
       </div>
     );

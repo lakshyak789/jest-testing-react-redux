@@ -20,8 +20,6 @@
 }
 .btn-wrap .deposit-balance {
   margin-left: 10px;
-  padding: 10px 20px;
-  background-color: rgb(97, 243, 97);
   outline: none;
   border: none;
   cursor: pointer;
@@ -29,8 +27,6 @@
 }
 .btn-wrap .withdraw-balance {
   margin-left: 10px;
-  padding: 10px 20px;
-  background-color: rgb(243, 175, 97);
   outline: none;
   border: none;
   cursor: pointer;
