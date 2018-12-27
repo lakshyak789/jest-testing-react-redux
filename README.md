@@ -1,6 +1,6 @@
 node modules to be installed
 
-Run ### `npm install`
+### `npm install`
 
 Install node modules
 
