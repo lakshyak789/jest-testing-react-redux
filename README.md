@@ -1,4 +1,6 @@
-node modules to be installed
+### react-materialize
+
+For designing purpose react materialize is used
 
 ### `npm install`
 
