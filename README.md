@@ -4,10 +4,6 @@ node modules to be installed
 
 Install node modules
 
-### `npm test`
-
-Performs test on the modules
-
 ### `npm start`
 
 Runs the app in the development mode.<br>
